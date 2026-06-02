@@ -1,6 +1,4 @@
-/* ==========================================================================
-   Base Page Layout Definitions
-   ========================================================================== */
+
 body {
     margin: 0;
     background-color: #dcdcdc;
@@ -17,9 +15,7 @@ h1 {
     font-weight: bold;
 }
 
-/* ==========================================================================
-   Banner Component Elements 
-   ========================================================================== */
+
 .banner img {
     width: 100%;
     height: 300px;
@@ -27,9 +23,7 @@ h1 {
     display: block;
 }
 
-/* ==========================================================================
-   Primary Flexible Puppy Display Grid Blocks
-   ========================================================================== */
+
 .puppy-row {
     width: 80%;
     margin: 30px auto;
@@ -50,8 +44,6 @@ h1 {
     object-fit: cover;
     border-radius: 4px;
 }
-
-/* Fallback card alignment module for missing image placeholders */
 .missing {
     background-color: #f3556d;
     display: flex;
@@ -65,9 +57,7 @@ h1 {
     line-height: 1.4;
 }
 
-/* ==========================================================================
-   Secondary Puppy Display Component Elements
-   ========================================================================== */
+
 h2 {
     text-align: center;
     font-size: 32px;
@@ -90,9 +80,7 @@ h2 {
     border-radius: 4px;
 }
 
-/* ==========================================================================
-   Footer Component Definitions
-   ========================================================================== */
+
 footer {
     background-color: #0d547d;
     color: white;
