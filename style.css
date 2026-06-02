@@ -1,0 +1,103 @@
+/* ==========================================================================
+   Base Page Layout Definitions
+   ========================================================================== */
+body {
+    margin: 0;
+    background-color: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: #0d547d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   Banner Component Elements 
+   ========================================================================== */
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ==========================================================================
+   Primary Flexible Puppy Display Grid Blocks
+   ========================================================================== */
+.puppy-row {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.puppy-row div {
+    flex: 1;
+    max-width: 250px;
+    height: 250px;
+}
+
+.puppy-row img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Fallback card alignment module for missing image placeholders */
+.missing {
+    background-color: #f3556d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+    line-height: 1.4;
+}
+
+/* ==========================================================================
+   Secondary Puppy Display Component Elements
+   ========================================================================== */
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.more-puppies {
+    width: 80%;
+    margin: 20px auto 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.more-puppies img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* ==========================================================================
+   Footer Component Definitions
+   ========================================================================== */
+footer {
+    background-color: #0d547d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
